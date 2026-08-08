@@ -1,0 +1,12 @@
+CMA Fitness Solutions Website v3.3.9
+
+Landing-page layout correction.
+
+- Updated the landing page to match the approved dark navy / gold reference.
+- Uses the existing images/cma-logo2.png in the header and hero.
+- Removes the white square surround around the logo.
+- Uses screen blending so the logo's black background visually merges into the dark hero panel.
+- Adds the approved hero headline, gold progress emphasis, CMA motto, calls to action and offline statement.
+- Rebuilds the four landing benefit cards with gold line icons.
+- Keeps all existing website sections below the landing area.
+- Footer version updated to Website v3.3.9.

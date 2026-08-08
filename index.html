@@ -71,7 +71,6 @@
   <div class="container header-inner">
     <a class="brand" href="#home" aria-label="CMA Fitness Solutions home">
       <img class="brand-logo-image" src="images/cma-logo2.png" alt="CMA Fitness logo">
-      <span class="brand-text">CMA Fitness Solutions</span>
     </a>
 
     <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-navigation">
@@ -79,14 +78,13 @@
     </button>
 
     <nav class="site-nav" id="site-navigation" aria-label="Main navigation">
-      <a href="#home">Home</a>
-      <a href="#editions">Personal</a>
-      <a href="#editions">Trainer</a>
       <a href="#features">Features</a>
-      <a href="#android">Android</a>
+      <a href="#screenshots">Screenshots</a>
+      <a href="#android">Android Personal</a>
+      <a href="#compare">Compare</a>
       <a href="#support">Support</a>
-      <a href="#support">Contact</a>
-      <a class="nav-cta" href="#download">Get the app</a>
+      <a href="#legal-links">Legal</a>
+      <a class="nav-cta" href="#download">⇩&nbsp; Download Personal</a>
     </nav>
   </div>
 </header>
@@ -94,26 +92,34 @@
 <main id="main-content">
   <section class="hero" id="home">
     <div class="container hero-grid">
-      <div>
-        <p class="eyebrow">Commit • Motivate • Achieve</p>
-        <h1>Your fitness information.<br>Your control. <span class="hero-accent">Your progress.</span></h1>
+      <div class="hero-content">
+        <h1>
+          Your fitness information.<br>
+          Your control. <span class="hero-accent">Your progress.</span>
+        </h1>
+
+        <p class="hero-motto">COMMIT <span>•</span> MOTIVATE <span>•</span> ACHIEVE</p>
+
         <p class="hero-copy">
-          CMA Fitness Coach Suite helps individuals organise workouts, nutrition and progress, while giving personal trainers a clear way to manage client information.
-        </p>
-        <p class="hero-copy">
-          Your fitness information stays private, secure and under your control.
+          CMA Fitness Coach Personal helps you track your training,<br>
+          nutrition and progress — stored locally on your device.<br>
+          Offline-first. Private. Designed for Windows and mobile.
         </p>
 
         <div class="button-row">
-          <a class="button" href="#editions">Explore Personal Edition</a>
-          <a class="button secondary" href="#editions">Explore Trainer Edition</a>
+          <a class="button hero-primary" href="#download">
+            <span class="download-symbol" aria-hidden="true">⇩</span>
+            Download Personal
+          </a>
+          <a class="button secondary hero-secondary" href="#features">
+            Learn More <span aria-hidden="true">›</span>
+          </a>
         </div>
 
-        <ul class="hero-points">
-          <li>No cloud account required</li>
-          <li>Local SQLite storage</li>
-          <li>Windows now • Android Personal planned</li>
-        </ul>
+        <p class="offline-note">
+          <span class="shield-mark" aria-hidden="true">✓</span>
+          100% Offline • Your data stays on your device
+        </p>
       </div>
 
       <div class="hero-logo-panel" aria-label="CMA Fitness logo">
@@ -123,29 +129,60 @@
   </section>
 
   <section class="benefits-bar" aria-label="Key benefits">
-    <div class="container">
-      <div class="benefits-grid">
-        <article class="benefit">
-          <div class="benefit-icon">01</div>
-          <h3>Private by design</h3>
-          <p>Your data stays locally on your device, under your control.</p>
-        </article>
-        <article class="benefit">
-          <div class="benefit-icon">02</div>
-          <h3>Windows and Android</h3>
-          <p>Use Windows today, with an Android Personal edition planned for mobile data management.</p>
-        </article>
-        <article class="benefit">
-          <div class="benefit-icon">03</div>
-          <h3>Track what matters</h3>
-          <p>Keep training, nutrition, body measurements and progress together.</p>
-        </article>
-        <article class="benefit">
-          <div class="benefit-icon">04</div>
-          <h3>Trainer supported</h3>
-          <p>Personal and Trainer editions support a clear trainer-to-client workflow.</p>
-        </article>
-      </div>
+    <div class="container benefits-grid">
+      <article class="benefit">
+        <div class="benefit-top">
+          <span class="benefit-number">01</span>
+          <svg class="benefit-symbol" viewBox="0 0 64 64" aria-hidden="true">
+            <rect x="18" y="28" width="28" height="24" rx="3"></rect>
+            <path d="M24 28v-8a8 8 0 0 1 16 0v8"></path>
+            <circle cx="32" cy="40" r="2.5"></circle>
+            <path d="M32 42.5v4"></path>
+          </svg>
+        </div>
+        <h3>Private by Design</h3>
+        <p>Your data is stored locally<br>on your device. No cloud.<br>No tracking. No sharing.</p>
+      </article>
+
+      <article class="benefit">
+        <div class="benefit-top">
+          <span class="benefit-number">02</span>
+          <svg class="benefit-symbol" viewBox="0 0 64 64" aria-hidden="true">
+            <rect x="10" y="14" width="36" height="26" rx="2"></rect>
+            <path d="M21 49h14M28 40v9"></path>
+            <rect x="43" y="27" width="12" height="24" rx="2"></rect>
+          </svg>
+        </div>
+        <h3>Designed for Windows<br>and Android</h3>
+        <p>Use on your Windows PC<br>and Android device to manage<br>your fitness anywhere.</p>
+      </article>
+
+      <article class="benefit">
+        <div class="benefit-top">
+          <span class="benefit-number">03</span>
+          <svg class="benefit-symbol" viewBox="0 0 64 64" aria-hidden="true">
+            <path d="M12 50V37h8v13M27 50V29h8v21M42 50V20h8v30"></path>
+            <path d="M12 28l12-8 10 4 16-14"></path>
+            <path d="M44 10h6v6"></path>
+          </svg>
+        </div>
+        <h3>Track What Matters</h3>
+        <p>Training, nutrition, body<br>measurements and progress<br>— all in one place.</p>
+      </article>
+
+      <article class="benefit">
+        <div class="benefit-top">
+          <span class="benefit-number">04</span>
+          <svg class="benefit-symbol" viewBox="0 0 64 64" aria-hidden="true">
+            <circle cx="25" cy="22" r="8"></circle>
+            <circle cx="43" cy="25" r="6"></circle>
+            <path d="M10 49c1-10 7-15 15-15s14 5 15 15"></path>
+            <path d="M38 37c8-1 14 4 16 12"></path>
+          </svg>
+        </div>
+        <h3>Trainer Supported</h3>
+        <p>Trainer edition available<br>after consultation to work<br>with you and your data.</p>
+      </article>
     </div>
   </section>
 
@@ -430,7 +467,7 @@
         </div>
       </div>
 
-      <div>
+      <div id="legal-links">
         <h3>Legal</h3>
         <div class="footer-links">
           <a href="legal/privacy-personal.html">Personal privacy</a>
@@ -446,9 +483,9 @@
     <div class="footer-bottom">
       <span>
         © <span data-year></span> CMA Fitness Solutions. All rights reserved.<br>
-        <span class="website-version">Website v3.3.8</span>
+        <span class="website-version">Website v3.3.9</span>
       </span>
-      <span>Designed for Windows and Android.</span>
+      <span>Designed for Windows and mobile.</span>
     </div>
   </div>
 </footer>
