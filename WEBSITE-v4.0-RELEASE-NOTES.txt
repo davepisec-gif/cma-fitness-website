@@ -1,0 +1,11 @@
+CMA Fitness Solutions Website v4.0
+
+- Preserves the established blue/gold visual identity.
+- Clarifies that Personal Edition is free but uses trainer-provided training and nutritional data.
+- Clarifies that Trainer Edition is available following consultation.
+- Replaces placeholder email addresses with branded Cloudflare-routed addresses.
+- Adds focused Personal, Trainer, Features, Support and Contact pages.
+- Adds page-specific SEO titles, descriptions, canonical URLs and social metadata.
+- Adds structured SoftwareApplication and Organization data.
+- Updates sitemap.xml to include primary public pages.
+- Uses a restrained two-image homepage preview to avoid overwhelming new visitors.

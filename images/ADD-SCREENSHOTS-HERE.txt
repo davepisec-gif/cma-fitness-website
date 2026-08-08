@@ -1,0 +1,1 @@
+Add dashboard.png, training.png and nutrition.png to this folder.
