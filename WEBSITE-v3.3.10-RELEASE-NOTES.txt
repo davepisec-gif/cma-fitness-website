@@ -1,0 +1,9 @@
+CMA Fitness Solutions Website v3.3.10
+
+Sharp scalable CMA logo update.
+
+- Replaces the raster CMA logo used on the landing page with images/cma-logo-sharp.svg.
+- Keeps the approved v3.3.9 logo position, panel size and landing-page layout unchanged.
+- CMA, FITNESS and COMMIT • MOTIVATE • ACHIEVE are rendered as vector text inside the SVG so their edges remain sharp at different browser sizes and display resolutions.
+- The athlete/swoosh mark is traced into vector paths from the existing CMA artwork.
+- Header and hero use the same scalable logo asset.

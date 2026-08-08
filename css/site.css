@@ -1534,3 +1534,23 @@ a {
   .benefits-grid { grid-template-columns: 1fr; }
   .benefit { min-height: 225px; }
 }
+
+
+/* ============================================================
+   CMA Fitness Website v3.3.10
+   Sharp scalable CMA logo
+   ============================================================ */
+
+.brand-logo-image,
+.hero-logo {
+  image-rendering: auto;
+  shape-rendering: geometricPrecision;
+  text-rendering: geometricPrecision;
+}
+
+.hero-logo {
+  mix-blend-mode: normal;
+  filter: none;
+}
+
+/* Keep the approved v3.3.9 placement and sizing unchanged. */
