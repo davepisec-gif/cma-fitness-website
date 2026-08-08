@@ -1,0 +1,7 @@
+CMA Fitness Solutions Website v3.3.11
+
+- Sharper vector logo refinement for the landing page.
+- Bronze/gold tone corrected to better match the original cma-logo2.png reference.
+- Decorative FITNESS side lines corrected with clear gaps from the F and S.
+- Unwanted thin white horizontal line removed.
+- Header "Download Personal" button removed from main navigation.
