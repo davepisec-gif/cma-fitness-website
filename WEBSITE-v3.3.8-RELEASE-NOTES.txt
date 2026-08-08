@@ -1,0 +1,12 @@
+CMA Fitness Solutions Website v3.3.8
+====================================
+
+Landing-page visual refresh:
+- Darker navy/black hero treatment with restrained gold accents.
+- Main hero logo changed to images/cma-logo2.png for better contrast on dark backgrounds.
+- Header and footer logo presentation modernised to remove the white tile effect.
+- Hero headline refreshed to emphasise information, control and progress.
+- Benefit-card wording refined and visual treatment aligned with the darker hero.
+- Existing site structure, links, content sections and responsive behaviour retained.
+
+No new image files are required; cma-logo2.png was already present in the site images folder.
