@@ -3,9 +3,9 @@
 <desc id="desc">CMA Fitness logo. Commit, Motivate, Achieve.</desc>
 <defs>
   <linearGradient id="logo-bronze" x1="0%" y1="0%" x2="100%" y2="0%">
-    <stop offset="0%" stop-color="#af8a2e"/>
-    <stop offset="45%" stop-color="#d0aa42"/>
-    <stop offset="100%" stop-color="#b48a2d"/>
+    <stop offset="0%" stop-color="#ab8130"/>
+    <stop offset="40%" stop-color="#c59a4a"/>
+    <stop offset="100%" stop-color="#a77a2c"/>
   </linearGradient>
 </defs>
 <g transform="translate(88 8) scale(4.55)">
@@ -14,16 +14,16 @@
 </g>
 <text x="500" y="548" text-anchor="middle"
       font-family="Arial Black, Arial, Helvetica, sans-serif"
-      font-size="214" font-weight="900" letter-spacing="-7"
+      font-size="214" font-weight="700" letter-spacing="-8"
       fill="#ffffff">CMA</text>
-<line x1="230" y1="629" x2="280" y2="629" stroke="url(#logo-bronze)" stroke-width="5" stroke-linecap="round"/>
-<line x1="720" y1="629" x2="770" y2="629" stroke="url(#logo-bronze)" stroke-width="5" stroke-linecap="round"/>
+<line x1="280" y1="629" x2="310" y2="629" stroke="url(#logo-bronze)" stroke-width="4" stroke-linecap="round"/>
+<line x1="690" y1="629" x2="720" y2="629" stroke="url(#logo-bronze)" stroke-width="4" stroke-linecap="round"/>
 <text x="500" y="657" text-anchor="middle"
       font-family="Arial, Helvetica, sans-serif"
-      font-size="78" font-weight="800" letter-spacing="14"
+      font-size="78" font-weight="700" letter-spacing="18"
       fill="url(#logo-bronze)">FITNESS</text>
 <text x="500" y="746" text-anchor="middle"
       font-family="Arial, Helvetica, sans-serif"
-      font-size="31" font-weight="800" letter-spacing="4"
-      fill="#b48a2d">COMMIT • MOTIVATE • ACHIEVE</text>
+      font-size="28" font-weight="600" letter-spacing="7"
+      fill="#c59a4a">COMMIT • MOTIVATE • ACHIEVE</text>
 </svg>
