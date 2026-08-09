@@ -1632,3 +1632,30 @@ a {
   color: #B88B3C;
 }
 
+/* =========================================================
+   SUPPORT CARDS
+   Match Personal / Trainer edition card styling
+   ========================================================= */
+
+#support .edition-card {
+    background: #0d2233;
+    border: 1px solid #B88B3C;
+}
+
+#support .edition-card h3 {
+    color: #ffffff;
+}
+
+#support .edition-card p {
+    color: #d7e0e8;
+}
+
+#support .edition-card .eyebrow {
+    color: #B88B3C;
+}
+
+#support .edition-card .button {
+    background: #B88B3C;
+    border-color: #B88B3C;
+    color: #071522;
+}
