@@ -4,10 +4,10 @@
   --navy-850: #102b47;
   --navy-800: #173b60;
   --blue-650: #3e6e9e;
-  --bronze-600: #9b7422;
-  --bronze-500: #b48a2d;
-  --bronze-400: #caa447;
-  --bronze-300: #ddbf6c;
+  --bronze-600: #9c7424;
+  --bronze-500: #b58e34;
+  --bronze-400: #d7ad45;
+  --bronze-300: #e5c47a;
   --white: #ffffff;
   --cream: #f7f5ef;
   --slate-50: #f7f9fb;
@@ -1116,14 +1116,13 @@ a {
 .hero-logo-panel {
   min-height: 460px;
   padding: 40px;
-  border: 2px solid rgba(202, 164, 71, 0.92);
+  border: 2px solid rgba(215, 173, 69, 0.92);
   border-radius: 25px;
   background:
     radial-gradient(circle at 50% 38%, rgba(29, 69, 113, 0.72), rgba(6, 25, 45, 0.94) 58%, #020a12 100%);
   box-shadow:
     0 30px 78px rgba(0, 0, 0, 0.46),
-    0 0 38px rgba(180, 138, 45, 0.11),
-    inset 0 1px 0 rgba(255,255,255,0.08);
+    0 0 38px rgba(180, 138, 45, 0.11);
   backdrop-filter: blur(8px);
 }
 
