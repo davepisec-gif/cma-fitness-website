@@ -456,9 +456,12 @@ a {
   display: grid;
   place-items: center;
   margin: 0 auto 20px;
-  border: 2px solid var(--blue-650);
+
+  border: 2px solid #B88B3C;
   border-radius: 14px;
-  color: var(--blue-650);
+
+  color: #B88B3C;
+
   font-size: 1rem;
   font-weight: 900;
 }
