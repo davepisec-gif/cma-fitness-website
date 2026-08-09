@@ -1659,3 +1659,27 @@ a {
     border-color: #B88B3C;
     color: #071522;
 }
+
+/* =========================================================
+   CMA FEATURE CARDS — 01 TO 05
+   Dark CMA styling
+   ========================================================= */
+
+.feature-card {
+  background: #0b1f2e;
+  border: 1px solid rgba(184, 139, 60, 0.55);
+  color: #ffffff;
+}
+
+.feature-card .feature-number {
+  color: #B88B3C;
+  border-color: #B88B3C;
+}
+
+.feature-card h3 {
+  color: #ffffff;
+}
+
+.feature-card p {
+  color: #ffffff;
+}
