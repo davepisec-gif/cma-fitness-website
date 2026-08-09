@@ -1673,7 +1673,7 @@ a {
 
 .feature-card .feature-number {
   color: #B88B3C;
-  border-color: #B88B3C;
+  border: 2px solid #B88B3C;
 }
 
 .feature-card h3 {
