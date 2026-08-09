@@ -1,0 +1,13 @@
+CMA Fitness Solutions Website v3.3.12
+UK Privacy Statement website update
+
+Changes:
+- Added UK Privacy to the Legal links in the website footer.
+- Added legal/uk-privacy.html based on CMA-LGL-009 UK Privacy Statement.
+- Added root-level uk-privacy.html redirect for compatibility/discoverability.
+- Updated displayed website version to v3.3.12.
+
+Source document:
+CMA-LGL-009 - UK Privacy Statement
+Version v0.30.00
+Classification: Public
