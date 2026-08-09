@@ -3,9 +3,9 @@
 <desc id="desc">CMA Fitness logo. Commit, Motivate, Achieve.</desc>
 <defs>
   <linearGradient id="logo-bronze" x1="0%" y1="0%" x2="100%" y2="0%">
-    <stop offset="0%" stop-color="#ab8130"/>
-    <stop offset="40%" stop-color="#c59a4a"/>
-    <stop offset="100%" stop-color="#a77a2c"/>
+    <stop offset="0%" stop-color="#b78e3f"/>
+    <stop offset="40%" stop-color="#d7ad45"/>
+    <stop offset="100%" stop-color="#b58e34"/>
   </linearGradient>
 </defs>
 <g transform="translate(88 8) scale(4.55)">
@@ -25,5 +25,5 @@
 <text x="500" y="746" text-anchor="middle"
       font-family="Arial, Helvetica, sans-serif"
       font-size="28" font-weight="600" letter-spacing="7"
-      fill="#c59a4a">COMMIT • MOTIVATE • ACHIEVE</text>
+      fill="#d7ad45">COMMIT • MOTIVATE • ACHIEVE</text>
 </svg>
