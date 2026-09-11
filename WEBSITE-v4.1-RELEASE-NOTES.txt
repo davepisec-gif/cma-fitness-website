@@ -1,0 +1,14 @@
+CMA Fitness Solutions Website v4.1
+
+Release date: 11 September 2026
+
+- Replaces the Personal Edition privacy-policy placeholder with the published CMA Fitness Coach Personal Privacy Policy.
+- Covers both Windows and Android Personal editions.
+- Documents offline-first local storage of fitness, nutrition, training and progress data.
+- Documents user-initiated CMA package import/export and Android system document-picker behaviour.
+- States that CMA Solutions does not automatically receive, upload, remotely store or sell users' locally stored fitness records.
+- Adds data retention/deletion, security, children's privacy, health/medical, privacy-rights and contact sections.
+- Uses privacy@cmafitnesssolutions.com as the privacy contact.
+- Adds canonical and search metadata for the public policy URL.
+- Redirects the legacy root privacy-personal.html URL to /legal/privacy-personal.html to avoid conflicting duplicate policy text.
+- Updates displayed website version markers on current public pages to Website v4.1.
