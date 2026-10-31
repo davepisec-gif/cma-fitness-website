@@ -5,9 +5,9 @@
   --navy-800: #173b60;
   --blue-650: #3e6e9e;
   --bronze-600: #9c7424;
-  --bronze-500: #b58e34;
-  --bronze-400: #d7ad45;
-  --bronze-300: #e5c47a;
+  --bronze-500: #DFBC6A;
+  --bronze-400: #DFBC6A;
+  --bronze-300: #DFBC6A;
   --white: #ffffff;
   --cream: #f7f5ef;
   --slate-50: #f7f9fb;
@@ -457,10 +457,10 @@ a {
   place-items: center;
   margin: 0 auto 20px;
 
-  border: 2px solid #B88B3C;
+  border: 2px solid #DFBC6A;
   border-radius: 14px;
 
-  color: #B88B3C;
+  color: #DFBC6A;
 
   font-size: 1rem;
   font-weight: 900;
@@ -1559,62 +1559,62 @@ a {
 
 /* ============================================================
    CMA Landing Page Bronze Accent Alignment
-   Logo bronze reference: #B88B3C / RGB 184, 139, 60
+   Logo bronze reference: #DFBC6A / RGB 184, 139, 60
    Added after v3.3.10 rules so these values take precedence.
    ============================================================ */
 
 :root {
-  --landing-gold: #B88B3C;
-  --landing-gold-bright: #B88B3C;
+  --landing-gold: #DFBC6A;
+  --landing-gold-bright: #DFBC6A;
 }
 
 /* Header accent */
 .site-header {
-  border-bottom-color: #B88B3C;
+  border-bottom-color: #DFBC6A;
 }
 
 .site-nav a::after {
-  background: #B88B3C;
+  background: #DFBC6A;
 }
 
 /* Hero text accents */
 .hero-accent,
 .hero-motto {
-  color: #B88B3C;
+  color: #DFBC6A;
 }
 
 /* Hero Download Personal button */
 .hero-primary {
-  background: #B88B3C;
+  background: #DFBC6A;
   color: #07121d;
   box-shadow: 0 9px 24px rgba(184, 139, 60, 0.16);
 }
 
 .hero-primary:hover,
 .hero-primary:focus-visible {
-  background: #B88B3C;
+  background: #DFBC6A;
   color: #07121d;
   box-shadow: 0 12px 26px rgba(184, 139, 60, 0.22);
 }
 
 /* Learn More button and arrow */
 .hero-secondary {
-  border-color: #B88B3C !important;
+  border-color: #DFBC6A !important;
 }
 
 .hero-secondary span {
-  color: #B88B3C;
+  color: #DFBC6A;
 }
 
 /* Offline shield */
 .shield-mark {
-  border-color: #B88B3C;
-  color: #B88B3C;
+  border-color: #DFBC6A;
+  color: #DFBC6A;
 }
 
 /* Large hero logo panel */
 .hero-logo-panel {
-  border-color: #B88B3C;
+  border-color: #DFBC6A;
   box-shadow:
     0 26px 62px rgba(0, 0, 0, 0.42),
     0 0 22px rgba(184, 139, 60, 0.09);
@@ -1622,17 +1622,17 @@ a {
 
 /* Four landing-page benefit cards */
 .benefit-number {
-  border-color: #B88B3C;
-  color: #B88B3C;
+  border-color: #DFBC6A;
+  color: #DFBC6A;
 }
 
 .benefit-symbol {
-  stroke: #B88B3C;
+  stroke: #DFBC6A;
 }
 
 /* Footer version accent */
 .website-version {
-  color: #B88B3C;
+  color: #DFBC6A;
 }
 
 /* =========================================================
@@ -1642,7 +1642,7 @@ a {
 
 #support .edition-card {
     background: #0d2233;
-    border: 1px solid #B88B3C;
+    border: 1px solid #DFBC6A;
 }
 
 #support .edition-card h3 {
@@ -1654,12 +1654,12 @@ a {
 }
 
 #support .edition-card .eyebrow {
-    color: #B88B3C;
+    color: #DFBC6A;
 }
 
 #support .edition-card .button {
-    background: #B88B3C;
-    border-color: #B88B3C;
+    background: #DFBC6A;
+    border-color: #DFBC6A;
     color: #071522;
 }
 
@@ -1675,8 +1675,8 @@ a {
 }
 
 .feature-card .feature-number {
-  color: #B88B3C !important;
-  border-color: #B88B3C !important;
+  color: #DFBC6A !important;
+  border-color: #DFBC6A !important;
 }
 
 .feature-card h3 {
@@ -1686,3 +1686,140 @@ a {
 .feature-card p {
   color: #ffffff;
 }
+/* Preserve full app captures; open linked originals for detail. */
+.current-app-screenshot { display:block; width:100%; height:420px; object-fit:contain; background:#071522; }
+.product-image img { max-height:640px; object-fit:contain; }
+@media(max-width:600px){.current-app-screenshot{height:360px;}}
+
+/* Development proposal: bounded brand mark and compact paired app views. */
+.review-banner{padding:9px 24px;background:#182b3b;color:#e5c17e;text-align:center;font-size:12px;letter-spacing:.09em;font-weight:700}
+.review-banner span{color:#ccd9e5;letter-spacing:0;font-weight:400;margin-left:16px}
+.hero-grid{width:min(1200px,calc(100% - 64px));grid-template-columns:minmax(0,1.5fr) minmax(260px,.8fr);gap:64px;padding:64px 0 56px;align-items:center}
+.hero h1{font-size:clamp(2.5rem,4vw,4.1rem);line-height:1.13;max-width:760px}
+.hero-copy{max-width:610px;font-size:1.08rem;line-height:1.8}
+.hero-logo-panel{width:100%;max-width:350px;min-height:0;aspect-ratio:1.08;margin:0 auto;padding:26px;border:1px solid rgba(184,139,60,.55);border-radius:24px;box-shadow:0 16px 50px #0004}
+.hero-logo{width:100%;max-width:300px;max-height:280px;transform:none!important;object-fit:contain}
+.app-showcase{background:#091a29;color:#e4edf5}
+.showcase-heading{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:32px}
+.showcase-heading h2{font-size:clamp(2rem,3.1vw,3rem);line-height:1.15;margin-bottom:15px;color:#fff}
+.showcase-heading p{color:#b6c8d8;max-width:520px}
+.showcase-tabs{display:flex;gap:5px;padding:5px;background:#122b40;border-radius:12px;flex-shrink:0}
+.showcase-tabs button{font:inherit;font-size:.9rem;border:0;background:transparent;color:#d7e3ef;padding:12px 17px;border-radius:8px;cursor:pointer}
+.showcase-tabs button[aria-selected=true]{background:#DFBC6A;color:#071522;font-weight:700}
+.showcase-tabs button:focus-visible,a:focus-visible{outline:3px solid #9dccff;outline-offset:4px}
+.showcase-panel{display:grid;grid-template-columns:minmax(0,1fr) 235px;gap:42px;align-items:start;max-width:1080px;margin:auto}
+.showcase-panel[hidden]{display:none}
+.showcase-panel figure{margin:0;min-width:0}
+.showcase-panel img{display:block;width:100%;height:auto;border:1px solid #3b5366;box-shadow:0 14px 40px #0003;border-radius:10px}
+.mobile-capture{max-width:235px;justify-self:center}
+.showcase-panel figcaption{margin-top:18px;color:#b9cbdb;font-size:.9rem;line-height:1.6}
+.showcase-panel figcaption span{display:block;color:#DFBC6A;font-size:.7rem;letter-spacing:.12em;margin-bottom:5px;font-weight:700}
+.showcase-panel figcaption strong{display:block;color:#f3f6fa;font-size:1.1rem;margin-bottom:4px}
+.showcase-footnote{font-size:.78rem;color:#9ab0c2;margin:28px 0 0;text-align:center}
+@media(min-width:1600px){.hero-grid{padding-top:70px;padding-bottom:65px}}
+@media(max-width:900px){.hero-grid{grid-template-columns:minmax(0,1fr) 250px;gap:25px}.hero-logo-panel{max-width:250px;padding:20px}.hero-logo{max-width:220px}.showcase-heading{display:block}.showcase-tabs{display:inline-flex;margin-top:15px}.showcase-panel{gap:24px;grid-template-columns:minmax(0,1fr) 190px}.mobile-capture{max-width:190px}}
+@media(max-width:600px){.review-banner{font-size:10px}.review-banner span{display:block;margin:3px 0 0}.hero-grid{width:calc(100% - 36px);display:flex;flex-direction:column;gap:30px;padding:38px 0;align-items:stretch}.hero-logo-panel{max-width:200px;aspect-ratio:1.2}.hero-logo{max-width:165px;max-height:150px}.hero h1{font-size:2.45rem}.hero-copy{font-size:1rem}.showcase-panel{grid-template-columns:1fr;gap:30px}.mobile-capture{max-width:220px}.showcase-tabs{width:100%}.showcase-tabs button{flex:1;padding:11px 8px;font-size:.8rem}}
+
+/* Approved light surfaces: preserve all existing dark CMA sections. */
+body { background:#f3f6f9; color:#10283c; }
+.section.soft { background:#e8eff5; color:#10283c; }
+.section:not(.dark):not(.app-showcase) > .container > .section-heading h2,
+.section:not(.dark):not(.app-showcase) > .container > h2 { color:#10283c; }
+.section:not(.dark):not(.app-showcase) > .container > .section-heading .section-intro { color:#4f6475; }
+.section:not(.dark):not(.app-showcase) > .container > p { color:#4f6475; }
+.faq { background:#fff; }
+.faq summary { color:#10283c; }
+.faq p { color:#4f6475; }
+.compare-table tbody { color:#10283c; }
+.compare-table tbody .yes { color:#28663e; }
+.section.dark h2, .section.dark h3 { color:#fff; }
+.app-showcase .showcase-heading h2 { color:#fff; }
+.app-showcase .showcase-heading p, .app-showcase .showcase-footnote { color:#b6c8d8; }
+/* Navy cards retain light text on both pale and dark surrounding sections. */
+.feature-card h3, .feature-card p,
+#support .edition-card h3 { color:#fff; }
+#support .edition-card p { color:#d7e0e8; }
+
+/* Selected Soft gold; darker text variant only on pale surfaces. */
+:root { --landing-gold:#DFBC6A; --landing-gold-bright:#DFBC6A; }
+.section:not(.dark):not(.app-showcase) > .container > .section-heading > .section-kicker { color:#76571f; }
+.showcase-tabs button[aria-selected=true], .hero-primary { background:#DFBC6A; color:#071522; }
+
+/* Continuous content field: quiet training watermark and soft edge transitions. */
+body { background-color:#f3f6f9; background-image:url('../images/training-watermark.svg'); background-size:1000px 850px; background-repeat:repeat; }
+
+/* Keep the existing hero artwork and landing palette intact. */
+
+.benefits-bar { padding-bottom:150px; background:linear-gradient(to bottom,#000b15 0%,#000b15 calc(100% - 150px),#f3f6f9 100%); }
+.section, .section.soft, .section.dark, .app-showcase { background:transparent; color:#10283c; }
+.section h2, .section.dark h2, .section.dark h3,
+.app-showcase .showcase-heading h2 { color:#10283c; }
+.section .section-intro, .section.dark .section-intro,
+.app-showcase .showcase-heading p, .app-showcase .showcase-footnote { color:#4f6475; }
+.section .section-kicker, .section.dark .section-kicker { color:#76571f; }
+.section .feature-card, .section .edition-card, #support .edition-card { background:rgba(255,255,255,.94); border:1px solid #d7e1e9; box-shadow:0 5px 18px rgba(16,40,60,.045); color:#10283c; }
+.section .feature-card h3, .section .feature-card p,
+.section .edition-card h3, #support .edition-card h3 { color:#10283c; }
+.section .edition-card p, #support .edition-card p { color:#4f6475; }
+.section .check-list, .section .check-list li { color:#10283c; }
+.section .check-list li::before, .section .edition-label { color:#76571f; }
+.showcase-panel figcaption, .showcase-panel figcaption strong { color:#10283c; }
+.showcase-panel figcaption span { color:#76571f; }
+.showcase-tabs { background:#e2eaf1; }
+.showcase-tabs button { color:#10283c; }
+.showcase-tabs button[aria-selected=true] { background:#DFBC6A; color:#071522; }
+.site-footer { padding-top:180px; background:linear-gradient(to bottom,#f3f6f9 0%,#9baab7 50px,#31495e 105px,#06111c 160px,#06111c 100%); color:#d1dce5; }
+@media(max-width:600px){body{background-size:750px 638px}.benefits-bar{padding-bottom:110px;background:linear-gradient(to bottom,#000b15 0%,#000b15 calc(100% - 110px),#f3f6f9 100%)}.site-footer{padding-top:160px}}
+
+/* Optional app-page viewer; the main page keeps its paired examples. */
+#app-viewer{width:min(1120px,94vw);max-height:94dvh;padding:22px;border:1px solid #bdccd8;border-radius:18px;background:#f3f6f9;color:#10283c;box-shadow:0 25px 90px #0007}
+#app-viewer::backdrop{background:rgba(3,15,26,.78)}
+.viewer-header{display:flex;justify-content:space-between;align-items:center;gap:18px;margin-bottom:18px}.viewer-header h2{margin:0;font-size:1.35rem;color:#10283c}.viewer-platform{margin:0 0 4px;font-size:.75rem;letter-spacing:.08em;color:#526779}
+#app-viewer button{font:inherit;border:1px solid #c4d2de;padding:10px 16px;border-radius:8px;background:#fff;color:#10283c;cursor:pointer;min-height:44px}#app-viewer #viewer-close{background:#10283c;color:#fff}#app-viewer #viewer-next{background:#DFBC6A;border-color:#DFBC6A}
+.viewer-image-wrap{height:min(65dvh,740px);display:flex;align-items:center;justify-content:center;background:#e8eff5;border-radius:10px;overflow:hidden}.viewer-image-wrap img{max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain}
+.viewer-controls{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:16px}.viewer-caption{font-size:.78rem;color:#526779;margin:14px 0 0;text-align:center}
+@media(max-width:600px){#app-viewer{padding:14px}.viewer-header h2{font-size:1.1rem}.viewer-image-wrap{height:62dvh}#app-viewer button{padding:10px 12px}.viewer-caption{font-size:.72rem}}
+
+/* One continuous patterned landing scene, fading into the content field. */
+.landing-scene{position:relative;isolation:isolate;overflow:hidden;background:linear-gradient(to bottom,transparent 0%,transparent 65%,rgba(243,246,249,.12) 75%,rgba(243,246,249,.55) 87%,#f3f6f9 100%),radial-gradient(circle at 77% 20%,rgba(35,79,125,.23),transparent 40%),linear-gradient(116deg,#000b16 0%,#00132a 52%,#001426 100%)}
+.landing-scene::before{content:"";position:absolute;inset:0;z-index:-1;background:radial-gradient(circle at 92% 28%,rgba(21,97,158,.35) 0 1px,transparent 1.8px) 0 0/13px 13px,radial-gradient(ellipse at 31% 26%,transparent 0 53%,rgba(13,80,137,.25) 53.2% 53.45%,transparent 53.7%),radial-gradient(ellipse at 31% 26%,transparent 0 60%,rgba(13,80,137,.16) 60.2% 60.42%,transparent 60.7%);mask-image:linear-gradient(to bottom,#000 0%,#000 58%,transparent 99%)}
+.landing-scene .hero{background:transparent}
+.landing-scene .hero::before{display:none}
+.landing-scene .benefits-bar{background:transparent;padding-bottom:240px}
+@media(max-width:600px){.landing-scene{background:linear-gradient(to bottom,transparent 0%,transparent 75%,rgba(243,246,249,.3) 86%,#f3f6f9 100%),linear-gradient(116deg,#000b16 0%,#00132a 52%,#001426 100%)}.landing-scene .benefits-bar{padding-bottom:190px}}
+
+/* Compact page rhythm: fades occupy normal spacing, never spacer sections. */
+.section{padding:54px 0}
+.section-heading{margin-bottom:28px}
+.section-heading .section-intro{margin-top:14px}
+.showcase-heading{margin-bottom:26px}
+.showcase-footnote{margin-top:20px}
+.landing-scene .benefits-bar{padding-bottom:38px}
+.landing-scene{background:linear-gradient(to bottom,transparent 0%,transparent calc(100% - 250px),rgba(243,246,249,.2) calc(100% - 170px),rgba(243,246,249,.7) calc(100% - 75px),#f3f6f9 100%),radial-gradient(circle at 77% 20%,rgba(35,79,125,.23),transparent 40%),linear-gradient(116deg,#000b16 0%,#00132a 52%,#001426 100%)}
+.landing-scene::before{mask-image:linear-gradient(to bottom,#000 0%,#000 calc(100% - 260px),transparent 100%)}
+/* Footer fade overlays the existing support section's lower edge. */
+#support{padding-bottom:70px}
+.site-footer{position:relative;padding-top:38px;padding-bottom:24px;background:#06111c}
+.site-footer::before{content:"";position:absolute;bottom:100%;left:0;right:0;height:56px;background:linear-gradient(to bottom,rgba(6,17,28,0),#06111c);pointer-events:none}
+.footer-grid{gap:26px}
+.footer-bottom{margin-top:26px}
+@media(max-width:600px){.section{padding:38px 0}.section-heading{margin-bottom:22px}.landing-scene .benefits-bar{padding-bottom:26px}.site-footer{padding-top:30px}.site-footer::before{height:44px}#support{padding-bottom:56px}.showcase-panel{gap:24px}}
+
+/* Equal displayed screenshot heights, with original image proportions. */
+.showcase-panel{display:flex;align-items:flex-start;gap:42px}
+.showcase-panel[hidden]{display:none}
+.showcase-panel .desktop-capture{flex:1.48276;min-width:0}
+.showcase-panel .mobile-capture{flex:.486328;max-width:none;min-width:0}
+#showcase-nutrition .desktop-capture{flex:1.43158}
+.showcase-panel img{width:100%;height:auto;border:0;outline:1px solid #3b5366;outline-offset:-1px}
+/* Blend through the existing lower support padding and footer inset. */
+.site-footer::before{bottom:auto;top:-70px;height:108px;background:linear-gradient(to bottom,#f3f6f9 0%,#e3e9ee 12%,#bfccd6 29%,#889dab 48%,#4d667a 67%,#213a4e 83%,#06111c 100%)}
+@media(max-width:900px){.showcase-panel{gap:24px}}
+@media(max-width:600px){.showcase-panel{display:grid;grid-template-columns:1fr;gap:24px}.showcase-panel .mobile-capture{max-width:240px;justify-self:center}.site-footer::before{top:-56px;height:86px}}
+
+.personal-package-note{font-size:.92rem;line-height:1.6;color:#4f6475;margin:12px 0 18px}.section .edition-card .personal-package-note{color:#4f6475}.page-hero .personal-package-note{color:#d7e0e8}
+
+/* Maintain readable text on the refreshed pale surfaces. */
+.section .feature-icon, .page-hero .eyebrow { color:#76571f; }
+.page-hero .personal-package-note { color:#4f6475; }
+.site-footer a { color:#d1dce5; }

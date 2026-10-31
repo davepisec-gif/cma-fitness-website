@@ -1,0 +1,61 @@
+CMA WEBSITE v4.2 - LOCAL VALIDATION
+Date: 31 October 2026
+Baseline: 3d64ed2619f68cd66586684d0ec1b68b20069a95
+Update: C:\Users\zippy\Downloads\CMA-Website-v4.2-update
+
+CHANGES
+Applied the supplied update to index, Personal, Trainer, features, support and contact pages, main CSS and site JavaScript; added nine screenshots and training-watermark.svg. Retained README-UPDATE.txt.
+Repaired the unterminated path in cma-logo-sharp.svg without replacing its geometry. Replaced the invalid backup-text SVG with a valid copy of the repaired logo.
+Corrected paired screenshot height alignment by removing border sizing from image proportions (outline retains the frame).
+Corrected pale-surface feature numbers, page labels, Personal package note and legal-footer link contrast.
+Moved the legacy #android anchor to the published editions so unchanged legal navigation remains useful.
+
+PRESERVATION
+Initial working tree was clean; no unrelated local changes were present.
+SHA-256 comparisons confirm all 35 protected existing files are byte-for-byte unchanged: CNAME, .nojekyll, robots.txt, sitemap.xml, all published root/legal documents, and every existing PNG (including all PNG logos).
+No CMA application repository, databases, application versions or release artifacts were modified.
+
+VALIDATION RESULTS
+PASS: 853 automated browser assertions in installed Microsoft Edge, including local links and anchors across all 24 HTML documents, unique IDs, SVG browser decoding, image loading, navigation open/close, showcase tabs and viewer behavior.
+PASS: 40 layout combinations: eight representative pages at 1440, 1024, 768, 390 and 320 pixels. No page-level horizontal overflow; the mobile comparison table retains its own scrolling container.
+PASS: matched desktop/mobile capture heights, all 3 Windows and 6 Android viewer pages, Next/Previous and wraparound, arrow-key events, Home/End and arrow keys for tabs, Close, cancel-close, restored trigger focus and restored scrolling.
+PASS: rendered-text contrast audit on the eight representative pages, including representative legal pages. Resolved all identified failures; translucent/gradient backgrounds are outside the automated numerical audit.
+PASS: all 3 SVG files parse as XML with SVG roots and decode in Edge. All existing PNGs unchanged.
+PASS: desktop showcase, 390-pixel mobile landing and mobile viewer captures visually inspected.
+PASS: git diff --check.
+LIMIT: keyboard tests used DOM keyboard events and native dialog requestClose. Physical Escape, Tab/Shift+Tab focus cycling, other browsers and real devices were not exercised because interactive browser tools were unavailable.
+External Store targets were preserved from the supplied update, not independently validated as product listings. Windows listing URLs remain outstanding; enquiries route to CMA as instructed. Published legal placeholders remain unchanged and outstanding.
+
+HOSTING CHECK
+origin: https://github.com/davepisec-gif/cma-fitness-website.git
+Latest public workflow: successful 'pages build and deployment' on main at the baseline commit, dynamic/pages/pages-build-deployment.
+https://github.com/davepisec-gif/cma-fitness-website/actions/runs/34619165330
+Custom domain responded HTTPS 200 with Server: GitHub.com. CNAME remains cmafitnesssolutions.com.
+The authenticated Pages settings endpoint was unavailable (404 without credentials); exact configured source directory and HTTPS enforcement settings were not independently inspected. No deployment configuration was changed.
+
+REVIEW STATE
+No files staged. No commit, push or deployment performed.
+Temporary QA harness, JSON report and captures: C:\Users\zippy\AppData\Local\Temp\cma-v42-qa-9i8ldE
+
+CHANGED FILES (excluding this report)
+contact.html
+css\site.css
+features.html
+images\android-home-074.png
+images\android-more-074.png
+images\android-nutrition-074.png
+images\android-package-review-074.png
+images\android-training-074.png
+images\android-training-overview-074.png
+images\cma-logo-sharp.svg
+images\temp-svg-backup.svg
+images\trainer-home-097.png
+images\trainer-nutrition-097.png
+images\trainer-training-097.png
+images\training-watermark.svg
+index.html
+js\site.js
+personal.html
+README-UPDATE.txt
+support.html
+trainer.html
