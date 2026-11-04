@@ -70,3 +70,11 @@ if(appViewer){
  appViewer.addEventListener('keydown',event=>{if(event.key==='ArrowRight'){event.preventDefault();moveViewer(1);}else if(event.key==='ArrowLeft'){event.preventDefault();moveViewer(-1);}});
  appViewer.addEventListener('close',()=>{document.documentElement.style.overflow='';if(viewerTrigger)viewerTrigger.focus();});
 }
+
+// Actual header height and viewport height govern reflow, including rotation.
+const header=document.querySelector('.site-header');
+function closeMenu(){if(nav && menuButton){nav.classList.remove('open');document.body.classList.remove('menu-open');menuButton.setAttribute('aria-expanded','false');}}
+function measureHeader(){if(header)document.documentElement.style.setProperty('--header-height',header.getBoundingClientRect().height+'px');if(window.innerWidth>1040)closeMenu();}
+if(header){new ResizeObserver(measureHeader).observe(header);measureHeader();}
+window.addEventListener('resize',measureHeader,{passive:true});
+document.addEventListener('keydown',event=>{if(event.key==='Escape' && nav?.classList.contains('open')){closeMenu();menuButton.focus();}});

@@ -1,0 +1,77 @@
+/* A4 portrait reference: 210mm at 96 CSS px/in is approximately 794px.
+   Navigation alone may use 1120px to retain accessible desktop link spacing. */
+:root { --max-width:794px; --header-height:78px; }
+html { scroll-padding-top:calc(var(--header-height) + 16px); }
+.container, .hero-grid { width:min(794px,calc(100% - 36px)); margin-inline:auto; }
+.header-inner { width:min(1120px,calc(100% - 36px)); gap:18px; }
+.brand { min-width:0; max-width:calc(100% - 82px); }
+.brand-logo-image { height:auto; max-height:52px; max-width:165px; object-fit:contain; }
+.brand-text { font-size:1.05rem; line-height:1.25; }
+.hero { min-height:0; }
+.hero-grid { display:grid; grid-template-columns:minmax(0,1fr) 220px; gap:30px; padding-block:42px; }
+.hero h1 { font-size:clamp(2rem,3.8vw,2.65rem); line-height:1.16; letter-spacing:-.025em; text-wrap:balance; }
+.hero-copy { font-size:1rem; line-height:1.65; }
+.hero-logo-panel { max-width:220px; padding:18px; }
+.hero-logo { max-width:185px; max-height:190px; }
+.section, .section.soft, .section.dark { padding-block:40px; }
+.section h2, .section.dark h2, .showcase-heading h2, .split-copy h2, .download-cta h2 { font-size:clamp(1.5rem,2.7vw,2rem); line-height:1.25; text-wrap:balance; }
+.page-hero { padding-block:38px; }
+.page-hero h1 { font-size:clamp(1.75rem,3.3vw,2.5rem); line-height:1.25; text-wrap:balance; }
+.section-intro, .page-hero p { font-size:1rem; line-height:1.65; }
+.section-heading { margin-bottom:22px; }
+.feature-grid { grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; }
+.feature-card, .edition-card { min-width:0; min-height:0; padding:22px; }
+.feature-card h3, .edition-card h3 { overflow-wrap:anywhere; }
+.benefits-grid { grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; }
+.benefit-card { min-height:0; padding:18px; }
+.edition-grid { grid-template-columns:repeat(2,minmax(0,1fr)); gap:20px; }
+.split-layout { grid-template-columns:minmax(0,1fr) minmax(0,260px); gap:30px; }
+.product-image img { max-height:440px; width:auto; margin-inline:auto; }
+.showcase-heading { display:block; }
+.showcase-tabs { margin-top:12px; flex-wrap:wrap; }
+.showcase-panel { gap:24px; max-width:794px; }
+.showcase-panel img { max-height:380px; object-fit:contain; }
+.current-app-screenshot { height:340px; }
+.store-panel { grid-template-columns:minmax(0,1fr); padding:26px; gap:18px; }
+.button { max-width:100%; white-space:normal; }
+.footer-grid { grid-template-columns:repeat(2,minmax(0,1fr)); gap:24px; }
+.footer-bottom { flex-wrap:wrap; gap:10px; }
+.cma-legal-page .cma-document { max-width:794px; line-height:1.7; }
+.cma-legal-page .page-hero h1 { font-size:clamp(1.625rem,2.6vw,2.125rem); }
+.cma-contact-page #trainer-consultation { padding-bottom:132px; }
+.button, .nav-toggle, .site-nav a { min-height:44px; }
+@media(min-width:768px) { #published-editions h2 { font-size:1.8rem; white-space:nowrap; } }
+@media(max-width:1040px) {
+ .site-nav { inset:var(--header-height) 0 auto; max-height:calc(100dvh - var(--header-height)); overflow-y:auto; overscroll-behavior:contain; padding:8px 18px 14px; }
+ .site-nav a { padding:10px 6px; display:flex; align-items:center; }
+}
+@media(max-width:760px) {
+ .split-layout { grid-template-columns:1fr; gap:24px; }
+ .split-layout .product-image, .phone-shell { max-width:280px; margin-inline:auto; }
+ .feature-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+}
+@media(max-width:620px) {
+ .hero-grid { grid-template-columns:1fr; gap:20px; padding-block:28px; }
+ .hero h1 { font-size:clamp(1.9rem,7.5vw,2.35rem); }
+ .hero-logo-panel { max-width:165px; padding:12px; }
+ .hero-logo { max-width:140px; max-height:135px; }
+ .section, .section.soft, .section.dark { padding-block:30px; }
+ .edition-grid, .footer-grid { grid-template-columns:1fr; }
+ .showcase-panel { display:grid; grid-template-columns:1fr; gap:20px; }
+ .showcase-panel .mobile-capture { max-width:200px; justify-self:center; }
+ .showcase-tabs button { min-height:44px; flex:1; }
+ .brand-text { font-size:.9rem; }
+ .brand-logo-image { max-height:42px; max-width:140px; }
+ .button-row { gap:10px; }
+ .button { max-width:100%; white-space:normal; text-align:center; }
+}
+@media(max-width:430px) { .feature-grid, .benefits-grid { grid-template-columns:1fr; } }
+@media(max-height:480px) and (min-width:621px) {
+ .header-inner { min-height:58px; }
+ .brand-logo-image { max-height:38px; }
+ .hero-grid { grid-template-columns:minmax(0,1fr) 165px; padding-block:24px; gap:20px; }
+ .hero-logo-panel { max-width:165px; }
+ .hero h1 { font-size:2rem; }
+ .page-hero { padding-block:24px; }
+ .section, .section.soft, .section.dark { padding-block:28px; }
+}
