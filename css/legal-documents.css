@@ -1,0 +1,12 @@
+.cma-legal-page .page-hero { background: var(--navy-950); color: var(--white); padding-block: 3rem; }
+.cma-legal-page .page-hero h1 { color: var(--white); line-height: 1.2; overflow-wrap: anywhere; }
+.cma-legal-page .page-hero .eyebrow { color: var(--bronze-500); }
+.cma-legal-page .section.soft { background: var(--slate-100); color: var(--navy-950); }
+.cma-document { max-width: 84ch; overflow-wrap: anywhere; }
+.cma-document section { margin-block: 2rem; }
+.cma-document h2 { line-height: 1.3; }
+.cma-document p { margin-block: 1rem; }
+.document-meta { border-left: 4px solid var(--bronze-500); padding: .8rem 1rem; background: var(--slate-100); }
+.document-list article { padding-block: 1rem; border-bottom: 1px solid var(--slate-200); }
+.document-contact { margin-top: 2rem; }
+@media (max-width: 480px) { .cma-document { width: calc(100% - 32px); } .cma-document h2 { font-size: 1.3rem; } }
