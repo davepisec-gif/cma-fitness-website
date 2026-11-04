@@ -1,0 +1,8 @@
+/* The existing footer fade starts above the footer. Keep it below the CTA. */
+.cma-contact-page #trainer-consultation { padding-bottom: calc(70px + 2rem); }
+.cma-contact-page .consultation-panel .button { max-width: 100%; white-space: normal; text-align: center; }
+@media (max-width: 600px) {
+  .cma-contact-page #trainer-consultation { padding-bottom: calc(56px + 2rem); }
+}
+.cma-contact-page .edition-card { min-width: 0; }
+.cma-contact-page .edition-card h3 { font-size: clamp(1.125rem, 1rem + .4vw, 1.5rem); overflow-wrap: anywhere; }
